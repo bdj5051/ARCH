@@ -78,7 +78,7 @@ How to run
             maxCores = maxCores)
 	```
 
-4. Email the file ```outputFolder.zip```
+4. Email the zipped ```outputFolder``` 
 		
 5. To view the results, use the Shiny app:
 
