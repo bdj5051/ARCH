@@ -1,0 +1,11 @@
+atlasId,atlasName,cohortId,name
+1228,[ARCH] New users of Romosozumab as first line therapy,1228,ARCH_New_users_of_Romosozumab_as_first_line_therapy
+1229,[ARCH] New users of Denosumab as first line therapy,1229,ARCH_New_users_of_Denosumab_as_first_line_therapy
+1029,[ARCH] MACE,1029,ARCH_MACE
+1030,[CDM-bone-CV events] MI,1030,CDMboneCV_events_MI
+1031,[ARCH] Heart failure,1031,ARCH_Heart_failure
+1032,[CDM-bone-CV events] Stroke,1032,CDMboneCV_events_Stroke
+1065,[CDM-bone-CV events]non-coronary revascularization,1065,CDMboneCV_eventsnoncoronary_revascularization
+1066,[CDM-bone-CV events]peripheral artery disease,1066,CDMboneCV_eventsperipheral_artery_disease
+1111,[AOM CV event] Sudden Cardiac Death,1111,AOM_CV_event_Sudden_Cardiac_Death
+1112,[AOM CV event] adjudicated CV event,1112,AOM_CV_event_adjudicated_CV_event
