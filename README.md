@@ -28,7 +28,7 @@ How to run
 	```r
 	library(ARCHv5)
 	
-  # Optional: specify where the temporary files (used by the Andromeda package) will be created:
+  Optional: specify where the temporary files (used by the Andromeda package) will be created:
   options(andromedaTempFolder = "c:/andromedaTemp")
 	
 	# Maximum number of cores to be used:
