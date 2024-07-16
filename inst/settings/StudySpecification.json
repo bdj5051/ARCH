@@ -105,7 +105,7 @@
       "DistinctObservationCountMediumTerm": false,
       "includedCovariateConceptIds": [],
       "DrugGroupEraStartShortTerm": false,
-      "addDescendantsToExclude": true,
+      "addDescendantsToExclude": false,
       "DrugEraLongTerm": false,
       "DistinctConditionCountShortTerm": false,
       "ConditionGroupEraShortTerm": true,
@@ -180,8 +180,8 @@
   "estimationAnalysisSettings": {
     "analysisSpecification": {
       "targetComparatorOutcomes": [{
-        "targetId": 1228,
-        "comparatorId": 1229,
+        "targetId": 1365,
+        "comparatorId": 1366,
         "includedCovariateConceptIds": [],
         "excludedCovariateConceptIds": [],
         "outcomeIds": [
@@ -258,7 +258,7 @@
               "DistinctObservationCountMediumTerm": false,
               "includedCovariateConceptIds": [],
               "DrugGroupEraStartShortTerm": false,
-              "addDescendantsToExclude": true,
+              "addDescendantsToExclude": false,
               "DrugEraLongTerm": false,
               "DistinctConditionCountShortTerm": false,
               "ConditionGroupEraShortTerm": false,
@@ -546,7 +546,7 @@
               "DistinctObservationCountMediumTerm": false,
               "includedCovariateConceptIds": [],
               "DrugGroupEraStartShortTerm": false,
-              "addDescendantsToExclude": true,
+              "addDescendantsToExclude": false,
               "DrugEraLongTerm": false,
               "DistinctConditionCountShortTerm": false,
               "ConditionGroupEraShortTerm": false,
@@ -834,7 +834,7 @@
               "DistinctObservationCountMediumTerm": false,
               "includedCovariateConceptIds": [],
               "DrugGroupEraStartShortTerm": false,
-              "addDescendantsToExclude": true,
+              "addDescendantsToExclude": false,
               "DrugEraLongTerm": false,
               "DistinctConditionCountShortTerm": false,
               "ConditionGroupEraShortTerm": false,
@@ -1122,7 +1122,7 @@
               "DistinctObservationCountMediumTerm": false,
               "includedCovariateConceptIds": [],
               "DrugGroupEraStartShortTerm": false,
-              "addDescendantsToExclude": true,
+              "addDescendantsToExclude": false,
               "DrugEraLongTerm": false,
               "DistinctConditionCountShortTerm": false,
               "ConditionGroupEraShortTerm": false,
@@ -1784,90 +1784,28 @@
           "Age": null
         }}],
         "QualifiedLimit": {"Type": "First"},
-        "InclusionRules": [
-          {
-            "expression": {
-              "CriteriaList": [],
-              "Type": "ALL",
-              "DemographicCriteriaList": [{
-                "Ethnicity": null,
-                "OccurrenceEndDate": null,
-                "Race": null,
-                "Gender": [{
-                  "INVALID_REASON_CAPTION": "Unknown",
-                  "CONCEPT_ID": 8532,
-                  "STANDARD_CONCEPT": null,
-                  "CONCEPT_CODE": "F",
-                  "VOCABULARY_ID": "Gender",
-                  "CONCEPT_NAME": "FEMALE",
-                  "DOMAIN_ID": "Gender",
-                  "STANDARD_CONCEPT_CAPTION": "Unknown",
-                  "CONCEPT_CLASS_ID": null,
-                  "INVALID_REASON": null
-                }],
-                "OccurrenceStartDate": null,
-                "Age": {
-                  "Op": "gt",
-                  "Extent": null,
-                  "Value": 50
-                }
-              }],
-              "Groups": [],
-              "Count": null
-            },
-            "name": "Age > 50",
-            "description": null
+        "InclusionRules": [{
+          "expression": {
+            "CriteriaList": [],
+            "Type": "ALL",
+            "DemographicCriteriaList": [{
+              "Ethnicity": null,
+              "OccurrenceEndDate": null,
+              "Race": null,
+              "Gender": null,
+              "OccurrenceStartDate": null,
+              "Age": {
+                "Op": "gt",
+                "Extent": null,
+                "Value": 50
+              }
+            }],
+            "Groups": [],
+            "Count": null
           },
-          {
-            "expression": {
-              "CriteriaList": [{
-                "RestrictVisit": false,
-                "StartWindow": {
-                  "UseEventEnd": false,
-                  "Start": {
-                    "Days": null,
-                    "Coeff": -1
-                  },
-                  "End": {
-                    "Days": 0,
-                    "Coeff": 1
-                  },
-                  "UseIndexEnd": false
-                },
-                "IgnoreObservationPeriod": false,
-                "EndWindow": null,
-                "Criteria": {"ConditionOccurrence": {
-                  "OccurrenceEndDate": null,
-                  "CorrelatedCriteria": null,
-                  "ConditionTypeExclude": false,
-                  "CodesetId": 7,
-                  "ProviderSpecialty": null,
-                  "Gender": null,
-                  "VisitType": null,
-                  "First": null,
-                  "OccurrenceStartDate": null,
-                  "ConditionType": null,
-                  "ConditionSourceConcept": null,
-                  "ConditionStatus": null,
-                  "StopReason": null,
-                  "Age": null
-                }},
-                "Occurrence": {
-                  "Type": 2,
-                  "CountColumn": "DOMAIN_CONCEPT",
-                  "IsDistinct": false,
-                  "Count": 1
-                }
-              }],
-              "Type": "ALL",
-              "DemographicCriteriaList": [],
-              "Groups": [],
-              "Count": null
-            },
-            "name": "Osteoporosis",
-            "description": null
-          }
-        ],
+          "name": "Age > 50",
+          "description": null
+        }],
         "PrimaryCriteria": {
           "CriteriaList": [{"DrugExposure": {
             "OccurrenceEndDate": null,
@@ -1904,12 +1842,12 @@
       },
       "createdDate": null,
       "createdBy": null,
-      "name": "[ARCH] New users of Romosozumab as first line therapy",
+      "name": "[ARCH] New users of Romosozumab as first line therapy 2",
       "modifiedDate": null,
-      "description": null,
+      "description": "w/o osteoporosis Dx",
       "expressionType": "SIMPLE_EXPRESSION",
       "modifiedBy": null,
-      "id": 1228
+      "id": 1365
     },
     {
       "expression": {
@@ -2304,90 +2242,28 @@
           "Age": null
         }}],
         "QualifiedLimit": {"Type": "First"},
-        "InclusionRules": [
-          {
-            "expression": {
-              "CriteriaList": [],
-              "Type": "ALL",
-              "DemographicCriteriaList": [{
-                "Ethnicity": null,
-                "OccurrenceEndDate": null,
-                "Race": null,
-                "Gender": [{
-                  "INVALID_REASON_CAPTION": "Unknown",
-                  "CONCEPT_ID": 8532,
-                  "STANDARD_CONCEPT": null,
-                  "CONCEPT_CODE": "F",
-                  "VOCABULARY_ID": "Gender",
-                  "CONCEPT_NAME": "FEMALE",
-                  "DOMAIN_ID": "Gender",
-                  "STANDARD_CONCEPT_CAPTION": "Unknown",
-                  "CONCEPT_CLASS_ID": null,
-                  "INVALID_REASON": null
-                }],
-                "OccurrenceStartDate": null,
-                "Age": {
-                  "Op": "gt",
-                  "Extent": null,
-                  "Value": 50
-                }
-              }],
-              "Groups": [],
-              "Count": null
-            },
-            "name": "Age > 50",
-            "description": null
+        "InclusionRules": [{
+          "expression": {
+            "CriteriaList": [],
+            "Type": "ALL",
+            "DemographicCriteriaList": [{
+              "Ethnicity": null,
+              "OccurrenceEndDate": null,
+              "Race": null,
+              "Gender": null,
+              "OccurrenceStartDate": null,
+              "Age": {
+                "Op": "gt",
+                "Extent": null,
+                "Value": 50
+              }
+            }],
+            "Groups": [],
+            "Count": null
           },
-          {
-            "expression": {
-              "CriteriaList": [{
-                "RestrictVisit": false,
-                "StartWindow": {
-                  "UseEventEnd": false,
-                  "Start": {
-                    "Days": null,
-                    "Coeff": -1
-                  },
-                  "End": {
-                    "Days": 0,
-                    "Coeff": 1
-                  },
-                  "UseIndexEnd": false
-                },
-                "IgnoreObservationPeriod": false,
-                "EndWindow": null,
-                "Criteria": {"ConditionOccurrence": {
-                  "OccurrenceEndDate": null,
-                  "CorrelatedCriteria": null,
-                  "ConditionTypeExclude": false,
-                  "CodesetId": 7,
-                  "ProviderSpecialty": null,
-                  "Gender": null,
-                  "VisitType": null,
-                  "First": null,
-                  "OccurrenceStartDate": null,
-                  "ConditionType": null,
-                  "ConditionSourceConcept": null,
-                  "ConditionStatus": null,
-                  "StopReason": null,
-                  "Age": null
-                }},
-                "Occurrence": {
-                  "Type": 2,
-                  "CountColumn": "DOMAIN_CONCEPT",
-                  "IsDistinct": false,
-                  "Count": 1
-                }
-              }],
-              "Type": "ALL",
-              "DemographicCriteriaList": [],
-              "Groups": [],
-              "Count": null
-            },
-            "name": "Osteoporosis",
-            "description": null
-          }
-        ],
+          "name": "Age > 50",
+          "description": null
+        }],
         "PrimaryCriteria": {
           "CriteriaList": [{"DrugExposure": {
             "OccurrenceEndDate": null,
@@ -2424,12 +2300,12 @@
       },
       "createdDate": null,
       "createdBy": null,
-      "name": "[ARCH] New users of Denosumab as first line therapy",
+      "name": "[ARCH] New users of Denosumab as first line therapy 2",
       "modifiedDate": null,
       "description": null,
       "expressionType": "SIMPLE_EXPRESSION",
       "modifiedBy": null,
-      "id": 1229
+      "id": 1366
     },
     {
       "expression": {
@@ -11894,7 +11770,7 @@
       "id": 1112
     }
   ],
-  "name": "[CDM-bone-CV events] ROMO vs Dmab",
+  "name": "[CDM-bone-CV events] ROMO vs Dmab 2",
   "conceptSets": [
     {
       "expression": {"items": [
@@ -12624,279 +12500,279 @@
     }
   ],
   "doPositiveControlSynthesis": false,
-  "id": 139,
-  "packageName": "ARCHv5",
+  "id": 211,
+  "packageName": "ARCHv6",
   "negativeControls": [
     {
-      "targetId": 1228,
+      "targetId": 1365,
       "outcomeName": "Acute conjunctivitis",
-      "comparatorId": 1229,
+      "comparatorId": 1366,
       "outcomeId": 376707,
       "type": "outcome"
     },
     {
-      "targetId": 1228,
+      "targetId": 1365,
       "outcomeName": "Alcohol abuse",
-      "comparatorId": 1229,
+      "comparatorId": 1366,
       "outcomeId": 433753,
       "type": "outcome"
     },
     {
-      "targetId": 1228,
+      "targetId": 1365,
       "outcomeName": "Allergic rhinitis",
-      "comparatorId": 1229,
+      "comparatorId": 1366,
       "outcomeId": 257007,
       "type": "outcome"
     },
     {
-      "targetId": 1228,
+      "targetId": 1365,
       "outcomeName": "Carpal tunnel syndrome",
-      "comparatorId": 1229,
+      "comparatorId": 1366,
       "outcomeId": 380094,
       "type": "outcome"
     },
     {
-      "targetId": 1228,
+      "targetId": 1365,
       "outcomeName": "Chronic obstructive lung disease",
-      "comparatorId": 1229,
+      "comparatorId": 1366,
       "outcomeId": 255573,
       "type": "outcome"
     },
     {
-      "targetId": 1228,
+      "targetId": 1365,
       "outcomeName": "Contact dermatitis",
-      "comparatorId": 1229,
+      "comparatorId": 1366,
       "outcomeId": 134438,
       "type": "outcome"
     },
     {
-      "targetId": 1228,
+      "targetId": 1365,
       "outcomeName": "Contusion of knee",
-      "comparatorId": 1229,
+      "comparatorId": 1366,
       "outcomeId": 78619,
       "type": "outcome"
     },
     {
-      "targetId": 1228,
+      "targetId": 1365,
       "outcomeName": "Corneal opacity",
-      "comparatorId": 1229,
+      "comparatorId": 1366,
       "outcomeId": 378752,
       "type": "outcome"
     },
     {
-      "targetId": 1228,
+      "targetId": 1365,
       "outcomeName": "Dental caries",
-      "comparatorId": 1229,
+      "comparatorId": 1366,
       "outcomeId": 133228,
       "type": "outcome"
     },
     {
-      "targetId": 1228,
+      "targetId": 1365,
       "outcomeName": "Diffuse spasm of esophagus",
-      "comparatorId": 1229,
+      "comparatorId": 1366,
       "outcomeId": 134681,
       "type": "outcome"
     },
     {
-      "targetId": 1228,
+      "targetId": 1365,
       "outcomeName": "Disease caused by parasite",
-      "comparatorId": 1229,
+      "comparatorId": 1366,
       "outcomeId": 432251,
       "type": "outcome"
     },
     {
-      "targetId": 1228,
+      "targetId": 1365,
       "outcomeName": "Disorder of ear",
-      "comparatorId": 1229,
+      "comparatorId": 1366,
       "outcomeId": 378161,
       "type": "outcome"
     },
     {
-      "targetId": 1228,
+      "targetId": 1365,
       "outcomeName": "Disorder of oral soft tissues",
-      "comparatorId": 1229,
+      "comparatorId": 1366,
       "outcomeId": 139057,
       "type": "outcome"
     },
     {
-      "targetId": 1228,
+      "targetId": 1365,
       "outcomeName": "Disorder of sebaceous gland",
-      "comparatorId": 1229,
+      "comparatorId": 1366,
       "outcomeId": 138225,
       "type": "outcome"
     },
     {
-      "targetId": 1228,
+      "targetId": 1365,
       "outcomeName": "Herpes zoster without complication",
-      "comparatorId": 1229,
+      "comparatorId": 1366,
       "outcomeId": 440329,
       "type": "outcome"
     },
     {
-      "targetId": 1228,
+      "targetId": 1365,
       "outcomeName": "Human papilloma virus infection",
-      "comparatorId": 1229,
+      "comparatorId": 1366,
       "outcomeId": 441788,
       "type": "outcome"
     },
     {
-      "targetId": 1228,
+      "targetId": 1365,
       "outcomeName": "Impacted cerumen",
-      "comparatorId": 1229,
+      "comparatorId": 1366,
       "outcomeId": 374375,
       "type": "outcome"
     },
     {
-      "targetId": 1228,
+      "targetId": 1365,
       "outcomeName": "Ingrowing nail",
-      "comparatorId": 1229,
+      "comparatorId": 1366,
       "outcomeId": 139099,
       "type": "outcome"
     },
     {
-      "targetId": 1228,
+      "targetId": 1365,
       "outcomeName": "Insomnia",
-      "comparatorId": 1229,
+      "comparatorId": 1366,
       "outcomeId": 436962,
       "type": "outcome"
     },
     {
-      "targetId": 1228,
+      "targetId": 1365,
       "outcomeName": "Internal hemorrhoids without complication",
-      "comparatorId": 1229,
+      "comparatorId": 1366,
       "outcomeId": 201322,
       "type": "outcome"
     },
     {
-      "targetId": 1228,
+      "targetId": 1365,
       "outcomeName": "Lumbar sprain",
-      "comparatorId": 1229,
+      "comparatorId": 1366,
       "outcomeId": 132466,
       "type": "outcome"
     },
     {
-      "targetId": 1228,
+      "targetId": 1365,
       "outcomeName": "Lupus erythematosus",
-      "comparatorId": 1229,
+      "comparatorId": 1366,
       "outcomeId": 255891,
       "type": "outcome"
     },
     {
-      "targetId": 1228,
+      "targetId": 1365,
       "outcomeName": "Otalgia",
-      "comparatorId": 1229,
+      "comparatorId": 1366,
       "outcomeId": 380733,
       "type": "outcome"
     },
     {
-      "targetId": 1228,
+      "targetId": 1365,
       "outcomeName": "Otitis media",
-      "comparatorId": 1229,
+      "comparatorId": 1366,
       "outcomeId": 372328,
       "type": "outcome"
     },
     {
-      "targetId": 1228,
+      "targetId": 1365,
       "outcomeName": "Plantar fasciitis",
-      "comparatorId": 1229,
+      "comparatorId": 1366,
       "outcomeId": 4002650,
       "type": "outcome"
     },
     {
-      "targetId": 1228,
+      "targetId": 1365,
       "outcomeName": "Presbyopia",
-      "comparatorId": 1229,
+      "comparatorId": 1366,
       "outcomeId": 373478,
       "type": "outcome"
     },
     {
-      "targetId": 1228,
+      "targetId": 1365,
       "outcomeName": "Sarcoidosis",
-      "comparatorId": 1229,
+      "comparatorId": 1366,
       "outcomeId": 438688,
       "type": "outcome"
     },
     {
-      "targetId": 1228,
+      "targetId": 1365,
       "outcomeName": "Sciatica",
-      "comparatorId": 1229,
+      "comparatorId": 1366,
       "outcomeId": 372409,
       "type": "outcome"
     },
     {
-      "targetId": 1228,
+      "targetId": 1365,
       "outcomeName": "Solitary sacroiliitis",
-      "comparatorId": 1229,
+      "comparatorId": 1366,
       "outcomeId": 73562,
       "type": "outcome"
     },
     {
-      "targetId": 1228,
+      "targetId": 1365,
       "outcomeName": "Tinea pedis",
-      "comparatorId": 1229,
+      "comparatorId": 1366,
       "outcomeId": 133141,
       "type": "outcome"
     },
     {
-      "targetId": 1228,
+      "targetId": 1365,
       "outcomeName": "Anal fissure",
-      "comparatorId": 1229,
+      "comparatorId": 1366,
       "outcomeId": 76725,
       "type": "outcome"
     },
     {
-      "targetId": 1228,
+      "targetId": 1365,
       "outcomeName": "Choledochal cyst",
-      "comparatorId": 1229,
+      "comparatorId": 1366,
       "outcomeId": 4260364,
       "type": "outcome"
     },
     {
-      "targetId": 1228,
+      "targetId": 1365,
       "outcomeName": "Crohn's disease",
-      "comparatorId": 1229,
+      "comparatorId": 1366,
       "outcomeId": 201606,
       "type": "outcome"
     },
     {
-      "targetId": 1228,
+      "targetId": 1365,
       "outcomeName": "Hematochezia",
-      "comparatorId": 1229,
+      "comparatorId": 1366,
       "outcomeId": 443530,
       "type": "outcome"
     },
     {
-      "targetId": 1228,
+      "targetId": 1365,
       "outcomeName": "Melena",
-      "comparatorId": 1229,
+      "comparatorId": 1366,
       "outcomeId": 4103703,
       "type": "outcome"
     },
     {
-      "targetId": 1228,
+      "targetId": 1365,
       "outcomeName": "Obstructive hydrocephalus",
-      "comparatorId": 1229,
+      "comparatorId": 1366,
       "outcomeId": 440385,
       "type": "outcome"
     },
     {
-      "targetId": 1228,
+      "targetId": 1365,
       "outcomeName": "Opioid abuse",
-      "comparatorId": 1229,
+      "comparatorId": 1366,
       "outcomeId": 438130,
       "type": "outcome"
     },
     {
-      "targetId": 1228,
+      "targetId": 1365,
       "outcomeName": "Spontaneous ecchymosis",
-      "comparatorId": 1229,
+      "comparatorId": 1366,
       "outcomeId": 438252,
       "type": "outcome"
     },
     {
-      "targetId": 1228,
+      "targetId": 1365,
       "outcomeName": "Torsion of testis",
-      "comparatorId": 1229,
+      "comparatorId": 1366,
       "outcomeId": 435315,
       "type": "outcome"
     }

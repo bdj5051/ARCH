@@ -1,4 +1,4 @@
-ARCHv5
+ARCHv6
 ==============================
 
 
@@ -26,7 +26,7 @@ How to run
 3. Once installed, you can execute the study by modifying and using the code below. For your convenience, this code is also provided under `extras/CodeToRun.R`:
 
 	```r
-	library(ARCHv5)
+	library(ARCHv6)
 	
   # Optional: specify where the temporary files (used by the Andromeda package) will be created:
   options(andromedaTempFolder = "c:/andromedaTemp")
@@ -38,7 +38,7 @@ How to run
 	minCellCount <- 5
 	
 	# The folder where the study intermediate and result files will be written:
-	outputFolder <- "c:/ARCHv5"
+	outputFolder <- "c:/ARCHv6"
 	
 	# Details for connecting to the server:
 	# See ?DatabaseConnector::createConnectionDetails for help
@@ -97,11 +97,11 @@ How to run
 
 License
 =======
-The ARCHv5 package is licensed under Apache License 2.0
+The ARCHv6 package is licensed under Apache License 2.0
 
 Development
 ===========
-ARCHv5 was developed in ATLAS and R Studio.
+ARCHv6 was developed in ATLAS and R Studio.
 
 ### Development status
 
