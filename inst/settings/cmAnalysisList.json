@@ -103,7 +103,7 @@
         "ConditionGroupEraStartShortTerm": false,
         "ConditionOccurrencePrimaryInpatientMediumTerm": false,
         "MeasurementLongTerm": false,
-        "DemographicsIndexYear": false,
+        "DemographicsIndexYear": true,
         "MeasurementValueMediumTerm": false,
         "DrugEraStartMediumTerm": false,
         "MeasurementValueAnyTimePrior": false,
@@ -118,7 +118,6 @@
         "VisitConceptCountLongTerm": false,
         "VisitConceptCountMediumTerm": false,
         "excludedCovariateConceptIds": [
-          80502,
           1511251,
           40222444
         ],
@@ -131,7 +130,7 @@
       },
       "studyStartDate": null,
       "washoutPeriod": 0,
-      "firstExposureOnly": true,
+      "firstExposureOnly": false,
       "attr_class": "args",
       "studyEndDate": null
     },
@@ -151,7 +150,7 @@
       "riskWindowEnd": 365,
       "firstExposureOnly": false
     },
-    "description": "1:1 PS matching (time at risk 1Y)",
+    "description": "365 days, PSM",
     "trimByPsArgs": {
       "trimFraction": 0.05,
       "attr_class": "args"
@@ -280,7 +279,7 @@
         "algorithm": "ccd"
       },
       "modelType": "cox",
-      "stratified": true,
+      "stratified": false,
       "attr_class": "args",
       "interactionCovariateIds": [],
       "includeCovariateIds": []
@@ -366,7 +365,7 @@
         "DistinctProcedureCountMediumTerm": false,
         "ConditionEraLongTerm": false,
         "DrugGroupEraStartLongTerm": false,
-        "DemographicsGender": false,
+        "DemographicsGender": true,
         "DeviceExposureAnyTimePrior": false,
         "ObservationLongTerm": false,
         "DemographicsIndexYearMonth": false,
@@ -406,7 +405,6 @@
         "VisitConceptCountLongTerm": false,
         "VisitConceptCountMediumTerm": false,
         "excludedCovariateConceptIds": [
-          80502,
           1511251,
           40222444
         ],
@@ -419,7 +417,7 @@
       },
       "studyStartDate": null,
       "washoutPeriod": 0,
-      "firstExposureOnly": true,
+      "firstExposureOnly": false,
       "attr_class": "args",
       "studyEndDate": null
     },
@@ -436,10 +434,10 @@
       "addExposureDaysToEnd": false,
       "priorOutcomeLookback": 99999,
       "removeSubjectsWithPriorOutcome": true,
-      "riskWindowEnd": 99999,
+      "riskWindowEnd": 1095,
       "firstExposureOnly": false
     },
-    "description": "1:1 PS matching",
+    "description": "1095 days, PSM",
     "trimByPsArgs": {
       "trimFraction": 0.05,
       "attr_class": "args"
@@ -568,7 +566,7 @@
         "algorithm": "ccd"
       },
       "modelType": "cox",
-      "stratified": true,
+      "stratified": false,
       "attr_class": "args",
       "interactionCovariateIds": [],
       "includeCovariateIds": []
@@ -654,7 +652,7 @@
         "DistinctProcedureCountMediumTerm": false,
         "ConditionEraLongTerm": false,
         "DrugGroupEraStartLongTerm": false,
-        "DemographicsGender": false,
+        "DemographicsGender": true,
         "DeviceExposureAnyTimePrior": false,
         "ObservationLongTerm": false,
         "DemographicsIndexYearMonth": false,
@@ -694,7 +692,6 @@
         "VisitConceptCountLongTerm": false,
         "VisitConceptCountMediumTerm": false,
         "excludedCovariateConceptIds": [
-          80502,
           1511251,
           40222444
         ],
@@ -707,7 +704,7 @@
       },
       "studyStartDate": null,
       "washoutPeriod": 0,
-      "firstExposureOnly": true,
+      "firstExposureOnly": false,
       "attr_class": "args",
       "studyEndDate": null
     },
@@ -727,7 +724,7 @@
       "riskWindowEnd": 365,
       "firstExposureOnly": false
     },
-    "description": "PS stratification (time at risk 1Y)",
+    "description": "365 days, PS stratification",
     "trimByPsArgs": {
       "trimFraction": 0.05,
       "attr_class": "args"
@@ -942,7 +939,7 @@
         "DistinctProcedureCountMediumTerm": false,
         "ConditionEraLongTerm": false,
         "DrugGroupEraStartLongTerm": false,
-        "DemographicsGender": false,
+        "DemographicsGender": true,
         "DeviceExposureAnyTimePrior": false,
         "ObservationLongTerm": false,
         "DemographicsIndexYearMonth": false,
@@ -982,7 +979,6 @@
         "VisitConceptCountLongTerm": false,
         "VisitConceptCountMediumTerm": false,
         "excludedCovariateConceptIds": [
-          80502,
           1511251,
           40222444
         ],
@@ -995,7 +991,7 @@
       },
       "studyStartDate": null,
       "washoutPeriod": 0,
-      "firstExposureOnly": true,
+      "firstExposureOnly": false,
       "attr_class": "args",
       "studyEndDate": null
     },
@@ -1012,10 +1008,10 @@
       "addExposureDaysToEnd": false,
       "priorOutcomeLookback": 99999,
       "removeSubjectsWithPriorOutcome": true,
-      "riskWindowEnd": 99999,
+      "riskWindowEnd": 1095,
       "firstExposureOnly": false
     },
-    "description": "PS stratification",
+    "description": "1095 days, PS stratification",
     "trimByPsArgs": {
       "trimFraction": 0.05,
       "attr_class": "args"

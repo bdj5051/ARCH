@@ -1,6 +1,6 @@
 atlasId,atlasName,cohortId,name
-1365,[ARCH] New users of Romosozumab as first line therapy 2,1365,ARCH_New_users_of_Romosozumab_as_first_line_therapy_2
-1366,[ARCH] New users of Denosumab as first line therapy 2,1366,ARCH_New_users_of_Denosumab_as_first_line_therapy_2
+1365,[ARCH] Romosozumab users,1365,ARCH_Romosozumab_users
+1366,[ARCH] Denosumab Users,1366,ARCH_Denosumab_Users
 1029,[ARCH] MACE,1029,ARCH_MACE
 1030,[CDM-bone-CV events] MI,1030,CDMboneCV_events_MI
 1031,[ARCH] Heart failure,1031,ARCH_Heart_failure
@@ -9,3 +9,17 @@ atlasId,atlasName,cohortId,name
 1066,[CDM-bone-CV events]peripheral artery disease,1066,CDMboneCV_eventsperipheral_artery_disease
 1111,[AOM CV event] Sudden Cardiac Death,1111,AOM_CV_event_Sudden_Cardiac_Death
 1112,[AOM CV event] adjudicated CV event,1112,AOM_CV_event_adjudicated_CV_event
+1413,[ARCH] MACE2,1413,ARCH_MACE2
+1414,[AOM CV event] adjudicated CV event2,1414,AOM_CV_event_adjudicated_CV_event2
+1400,[ARCH] Romosozumab Users Sex1,1400,ARCH_Romosozumab_Users_Sex1
+1402,[ARCH] Denosumab User Sex1,1402,ARCH_Denosumab_User_Sex1
+1401,[ARCH] Romosozumab Users Sex2,1401,ARCH_Romosozumab_Users_Sex2
+1403,[ARCH] Denosumab User Sex2,1403,ARCH_Denosumab_User_Sex2
+1404,[ARCH] Romosozumab Users Age1,1404,ARCH_Romosozumab_Users_Age1
+1406,[ARCH] Denosumab User Age1,1406,ARCH_Denosumab_User_Age1
+1405,[ARCH] Romosozumab Users Age2,1405,ARCH_Romosozumab_Users_Age2
+1407,[ARCH] Denosumab User Age2,1407,ARCH_Denosumab_User_Age2
+1409,[ARCH] Romosozumab Users Fracture1,1409,ARCH_Romosozumab_Users_Fracture1
+1411,[ARCH] Denosumab User Fracture1,1411,ARCH_Denosumab_User_Fracture1
+1410,[ARCH] Romosozumab Users Fracture2,1410,ARCH_Romosozumab_Users_Fracture2
+1412,[ARCH] Denosumab User Fracture2,1412,ARCH_Denosumab_User_Fracture2

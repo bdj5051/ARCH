@@ -38,3 +38,237 @@ targetId,comparatorId,outcomeId,outcomeName,type
 1365,1366,438130,Opioid abuse,outcome
 1365,1366,438252,Spontaneous ecchymosis,outcome
 1365,1366,435315,Torsion of testis,outcome
+1400,1402,376707,Acute conjunctivitis,outcome
+1400,1402,433753,Alcohol abuse,outcome
+1400,1402,257007,Allergic rhinitis,outcome
+1400,1402,380094,Carpal tunnel syndrome,outcome
+1400,1402,255573,Chronic obstructive lung disease,outcome
+1400,1402,134438,Contact dermatitis,outcome
+1400,1402,78619,Contusion of knee,outcome
+1400,1402,378752,Corneal opacity,outcome
+1400,1402,133228,Dental caries,outcome
+1400,1402,134681,Diffuse spasm of esophagus,outcome
+1400,1402,432251,Disease caused by parasite,outcome
+1400,1402,378161,Disorder of ear,outcome
+1400,1402,139057,Disorder of oral soft tissues,outcome
+1400,1402,138225,Disorder of sebaceous gland,outcome
+1400,1402,440329,Herpes zoster without complication,outcome
+1400,1402,441788,Human papilloma virus infection,outcome
+1400,1402,374375,Impacted cerumen,outcome
+1400,1402,139099,Ingrowing nail,outcome
+1400,1402,436962,Insomnia,outcome
+1400,1402,201322,Internal hemorrhoids without complication,outcome
+1400,1402,132466,Lumbar sprain,outcome
+1400,1402,255891,Lupus erythematosus,outcome
+1400,1402,380733,Otalgia,outcome
+1400,1402,372328,Otitis media,outcome
+1400,1402,4002650,Plantar fasciitis,outcome
+1400,1402,373478,Presbyopia,outcome
+1400,1402,438688,Sarcoidosis,outcome
+1400,1402,372409,Sciatica,outcome
+1400,1402,73562,Solitary sacroiliitis,outcome
+1400,1402,133141,Tinea pedis,outcome
+1400,1402,76725,Anal fissure,outcome
+1400,1402,4260364,Choledochal cyst,outcome
+1400,1402,201606,Crohn's disease,outcome
+1400,1402,443530,Hematochezia,outcome
+1400,1402,4103703,Melena,outcome
+1400,1402,440385,Obstructive hydrocephalus,outcome
+1400,1402,438130,Opioid abuse,outcome
+1400,1402,438252,Spontaneous ecchymosis,outcome
+1400,1402,435315,Torsion of testis,outcome
+1401,1403,376707,Acute conjunctivitis,outcome
+1401,1403,433753,Alcohol abuse,outcome
+1401,1403,257007,Allergic rhinitis,outcome
+1401,1403,380094,Carpal tunnel syndrome,outcome
+1401,1403,255573,Chronic obstructive lung disease,outcome
+1401,1403,134438,Contact dermatitis,outcome
+1401,1403,78619,Contusion of knee,outcome
+1401,1403,378752,Corneal opacity,outcome
+1401,1403,133228,Dental caries,outcome
+1401,1403,134681,Diffuse spasm of esophagus,outcome
+1401,1403,432251,Disease caused by parasite,outcome
+1401,1403,378161,Disorder of ear,outcome
+1401,1403,139057,Disorder of oral soft tissues,outcome
+1401,1403,138225,Disorder of sebaceous gland,outcome
+1401,1403,440329,Herpes zoster without complication,outcome
+1401,1403,441788,Human papilloma virus infection,outcome
+1401,1403,374375,Impacted cerumen,outcome
+1401,1403,139099,Ingrowing nail,outcome
+1401,1403,436962,Insomnia,outcome
+1401,1403,201322,Internal hemorrhoids without complication,outcome
+1401,1403,132466,Lumbar sprain,outcome
+1401,1403,255891,Lupus erythematosus,outcome
+1401,1403,380733,Otalgia,outcome
+1401,1403,372328,Otitis media,outcome
+1401,1403,4002650,Plantar fasciitis,outcome
+1401,1403,373478,Presbyopia,outcome
+1401,1403,438688,Sarcoidosis,outcome
+1401,1403,372409,Sciatica,outcome
+1401,1403,73562,Solitary sacroiliitis,outcome
+1401,1403,133141,Tinea pedis,outcome
+1401,1403,76725,Anal fissure,outcome
+1401,1403,4260364,Choledochal cyst,outcome
+1401,1403,201606,Crohn's disease,outcome
+1401,1403,443530,Hematochezia,outcome
+1401,1403,4103703,Melena,outcome
+1401,1403,440385,Obstructive hydrocephalus,outcome
+1401,1403,438130,Opioid abuse,outcome
+1401,1403,438252,Spontaneous ecchymosis,outcome
+1401,1403,435315,Torsion of testis,outcome
+1404,1406,376707,Acute conjunctivitis,outcome
+1404,1406,433753,Alcohol abuse,outcome
+1404,1406,257007,Allergic rhinitis,outcome
+1404,1406,380094,Carpal tunnel syndrome,outcome
+1404,1406,255573,Chronic obstructive lung disease,outcome
+1404,1406,134438,Contact dermatitis,outcome
+1404,1406,78619,Contusion of knee,outcome
+1404,1406,378752,Corneal opacity,outcome
+1404,1406,133228,Dental caries,outcome
+1404,1406,134681,Diffuse spasm of esophagus,outcome
+1404,1406,432251,Disease caused by parasite,outcome
+1404,1406,378161,Disorder of ear,outcome
+1404,1406,139057,Disorder of oral soft tissues,outcome
+1404,1406,138225,Disorder of sebaceous gland,outcome
+1404,1406,440329,Herpes zoster without complication,outcome
+1404,1406,441788,Human papilloma virus infection,outcome
+1404,1406,374375,Impacted cerumen,outcome
+1404,1406,139099,Ingrowing nail,outcome
+1404,1406,436962,Insomnia,outcome
+1404,1406,201322,Internal hemorrhoids without complication,outcome
+1404,1406,132466,Lumbar sprain,outcome
+1404,1406,255891,Lupus erythematosus,outcome
+1404,1406,380733,Otalgia,outcome
+1404,1406,372328,Otitis media,outcome
+1404,1406,4002650,Plantar fasciitis,outcome
+1404,1406,373478,Presbyopia,outcome
+1404,1406,438688,Sarcoidosis,outcome
+1404,1406,372409,Sciatica,outcome
+1404,1406,73562,Solitary sacroiliitis,outcome
+1404,1406,133141,Tinea pedis,outcome
+1404,1406,76725,Anal fissure,outcome
+1404,1406,4260364,Choledochal cyst,outcome
+1404,1406,201606,Crohn's disease,outcome
+1404,1406,443530,Hematochezia,outcome
+1404,1406,4103703,Melena,outcome
+1404,1406,440385,Obstructive hydrocephalus,outcome
+1404,1406,438130,Opioid abuse,outcome
+1404,1406,438252,Spontaneous ecchymosis,outcome
+1404,1406,435315,Torsion of testis,outcome
+1405,1407,376707,Acute conjunctivitis,outcome
+1405,1407,433753,Alcohol abuse,outcome
+1405,1407,257007,Allergic rhinitis,outcome
+1405,1407,380094,Carpal tunnel syndrome,outcome
+1405,1407,255573,Chronic obstructive lung disease,outcome
+1405,1407,134438,Contact dermatitis,outcome
+1405,1407,78619,Contusion of knee,outcome
+1405,1407,378752,Corneal opacity,outcome
+1405,1407,133228,Dental caries,outcome
+1405,1407,134681,Diffuse spasm of esophagus,outcome
+1405,1407,432251,Disease caused by parasite,outcome
+1405,1407,378161,Disorder of ear,outcome
+1405,1407,139057,Disorder of oral soft tissues,outcome
+1405,1407,138225,Disorder of sebaceous gland,outcome
+1405,1407,440329,Herpes zoster without complication,outcome
+1405,1407,441788,Human papilloma virus infection,outcome
+1405,1407,374375,Impacted cerumen,outcome
+1405,1407,139099,Ingrowing nail,outcome
+1405,1407,436962,Insomnia,outcome
+1405,1407,201322,Internal hemorrhoids without complication,outcome
+1405,1407,132466,Lumbar sprain,outcome
+1405,1407,255891,Lupus erythematosus,outcome
+1405,1407,380733,Otalgia,outcome
+1405,1407,372328,Otitis media,outcome
+1405,1407,4002650,Plantar fasciitis,outcome
+1405,1407,373478,Presbyopia,outcome
+1405,1407,438688,Sarcoidosis,outcome
+1405,1407,372409,Sciatica,outcome
+1405,1407,73562,Solitary sacroiliitis,outcome
+1405,1407,133141,Tinea pedis,outcome
+1405,1407,76725,Anal fissure,outcome
+1405,1407,4260364,Choledochal cyst,outcome
+1405,1407,201606,Crohn's disease,outcome
+1405,1407,443530,Hematochezia,outcome
+1405,1407,4103703,Melena,outcome
+1405,1407,440385,Obstructive hydrocephalus,outcome
+1405,1407,438130,Opioid abuse,outcome
+1405,1407,438252,Spontaneous ecchymosis,outcome
+1405,1407,435315,Torsion of testis,outcome
+1409,1411,376707,Acute conjunctivitis,outcome
+1409,1411,433753,Alcohol abuse,outcome
+1409,1411,257007,Allergic rhinitis,outcome
+1409,1411,380094,Carpal tunnel syndrome,outcome
+1409,1411,255573,Chronic obstructive lung disease,outcome
+1409,1411,134438,Contact dermatitis,outcome
+1409,1411,78619,Contusion of knee,outcome
+1409,1411,378752,Corneal opacity,outcome
+1409,1411,133228,Dental caries,outcome
+1409,1411,134681,Diffuse spasm of esophagus,outcome
+1409,1411,432251,Disease caused by parasite,outcome
+1409,1411,378161,Disorder of ear,outcome
+1409,1411,139057,Disorder of oral soft tissues,outcome
+1409,1411,138225,Disorder of sebaceous gland,outcome
+1409,1411,440329,Herpes zoster without complication,outcome
+1409,1411,441788,Human papilloma virus infection,outcome
+1409,1411,374375,Impacted cerumen,outcome
+1409,1411,139099,Ingrowing nail,outcome
+1409,1411,436962,Insomnia,outcome
+1409,1411,201322,Internal hemorrhoids without complication,outcome
+1409,1411,132466,Lumbar sprain,outcome
+1409,1411,255891,Lupus erythematosus,outcome
+1409,1411,380733,Otalgia,outcome
+1409,1411,372328,Otitis media,outcome
+1409,1411,4002650,Plantar fasciitis,outcome
+1409,1411,373478,Presbyopia,outcome
+1409,1411,438688,Sarcoidosis,outcome
+1409,1411,372409,Sciatica,outcome
+1409,1411,73562,Solitary sacroiliitis,outcome
+1409,1411,133141,Tinea pedis,outcome
+1409,1411,76725,Anal fissure,outcome
+1409,1411,4260364,Choledochal cyst,outcome
+1409,1411,201606,Crohn's disease,outcome
+1409,1411,443530,Hematochezia,outcome
+1409,1411,4103703,Melena,outcome
+1409,1411,440385,Obstructive hydrocephalus,outcome
+1409,1411,438130,Opioid abuse,outcome
+1409,1411,438252,Spontaneous ecchymosis,outcome
+1409,1411,435315,Torsion of testis,outcome
+1410,1412,376707,Acute conjunctivitis,outcome
+1410,1412,433753,Alcohol abuse,outcome
+1410,1412,257007,Allergic rhinitis,outcome
+1410,1412,380094,Carpal tunnel syndrome,outcome
+1410,1412,255573,Chronic obstructive lung disease,outcome
+1410,1412,134438,Contact dermatitis,outcome
+1410,1412,78619,Contusion of knee,outcome
+1410,1412,378752,Corneal opacity,outcome
+1410,1412,133228,Dental caries,outcome
+1410,1412,134681,Diffuse spasm of esophagus,outcome
+1410,1412,432251,Disease caused by parasite,outcome
+1410,1412,378161,Disorder of ear,outcome
+1410,1412,139057,Disorder of oral soft tissues,outcome
+1410,1412,138225,Disorder of sebaceous gland,outcome
+1410,1412,440329,Herpes zoster without complication,outcome
+1410,1412,441788,Human papilloma virus infection,outcome
+1410,1412,374375,Impacted cerumen,outcome
+1410,1412,139099,Ingrowing nail,outcome
+1410,1412,436962,Insomnia,outcome
+1410,1412,201322,Internal hemorrhoids without complication,outcome
+1410,1412,132466,Lumbar sprain,outcome
+1410,1412,255891,Lupus erythematosus,outcome
+1410,1412,380733,Otalgia,outcome
+1410,1412,372328,Otitis media,outcome
+1410,1412,4002650,Plantar fasciitis,outcome
+1410,1412,373478,Presbyopia,outcome
+1410,1412,438688,Sarcoidosis,outcome
+1410,1412,372409,Sciatica,outcome
+1410,1412,73562,Solitary sacroiliitis,outcome
+1410,1412,133141,Tinea pedis,outcome
+1410,1412,76725,Anal fissure,outcome
+1410,1412,4260364,Choledochal cyst,outcome
+1410,1412,201606,Crohn's disease,outcome
+1410,1412,443530,Hematochezia,outcome
+1410,1412,4103703,Melena,outcome
+1410,1412,440385,Obstructive hydrocephalus,outcome
+1410,1412,438130,Opioid abuse,outcome
+1410,1412,438252,Spontaneous ecchymosis,outcome
+1410,1412,435315,Torsion of testis,outcome

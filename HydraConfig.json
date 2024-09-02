@@ -5,11 +5,11 @@
 	"actions":[{
 		"type": "fileNameFindAndReplace",
 		"input": "packageName",
-		"find": "ARCHv6"
+		"find": "ARCHv7"
 	},{
 		"type": "stringFindAndReplace",
 		"input": "packageName",
-		"find": "ARCHv6"
+		"find": "ARCHv7"
 	},{
 		"type": "jsonArrayToCsv",
 		"input": "cohortDefinitions",

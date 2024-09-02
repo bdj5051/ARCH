@@ -1,0 +1,479 @@
+{
+  "ExpressionLimit": {"Type": "First"},
+  "CollapseSettings": {
+    "CollapseType": "ERA",
+    "EraPad": 0
+  },
+  "CensorWindow": {
+    "StartDate": null,
+    "EndDate": null
+  },
+  "ConceptSets": [
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 1511251,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "2123126",
+          "VOCABULARY_ID": "RxNorm",
+          "CONCEPT_NAME": "romosozumab",
+          "DOMAIN_ID": "Drug",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Ingredient",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }]},
+      "name": "Romosozumab",
+      "id": 5
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 44506794,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1441386",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "bazedoxifene",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1513103,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "72143",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "raloxifene",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1436678,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "10324",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "tamoxifen",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 36850663,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP5168280",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "LASOFOXIFENE",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1521987,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "32915",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "teriparatide",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1594148,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1921069",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "abaloparatide",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1557272,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "46041",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "alendronate",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1516800,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "73056",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "risedronate",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1552929,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "42682",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "etidronate",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1578445,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "57230",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "tiludronate",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1524674,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "77655",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "zoledronic acid",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1512480,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "115264",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "ibandronate",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1511646,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "11473",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "pamidronate",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40222444,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "993449",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "denosumab",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "Anti-Osteoporosis Medication (without Romosozumab)",
+      "id": 6
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 80502,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "64859006",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Osteoporosis",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42538151,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "739301006",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Osteoporosis co-occurrent and due to multiple myeloma",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4002134,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "203437004",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Osteoporosis in endocrine disorders",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40480160,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "443165006",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Pathological fracture due to osteoporosis",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45766159,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "703264005",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Secondary osteoporosis",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "Osteoporosis",
+      "id": 7
+    }
+  ],
+  "cdmVersionRange": ">=5.0.0",
+  "CensoringCriteria": [{"DrugExposure": {
+    "OccurrenceEndDate": null,
+    "CorrelatedCriteria": null,
+    "DrugSourceConcept": null,
+    "CodesetId": 6,
+    "DrugTypeExclude": false,
+    "Quantity": null,
+    "DrugType": null,
+    "ProviderSpecialty": null,
+    "EffectiveDrugDose": null,
+    "Gender": null,
+    "DaysSupply": null,
+    "DoseUnit": null,
+    "VisitType": null,
+    "Refills": null,
+    "First": null,
+    "OccurrenceStartDate": null,
+    "RouteConcept": null,
+    "StopReason": null,
+    "LotNumber": null,
+    "Age": null
+  }}],
+  "QualifiedLimit": {"Type": "First"},
+  "InclusionRules": [
+    {
+      "expression": {
+        "CriteriaList": [],
+        "Type": "ALL",
+        "DemographicCriteriaList": [{
+          "Ethnicity": null,
+          "OccurrenceEndDate": null,
+          "Race": null,
+          "Gender": null,
+          "OccurrenceStartDate": null,
+          "Age": {
+            "Op": "gt",
+            "Extent": null,
+            "Value": 50
+          }
+        }],
+        "Groups": [],
+        "Count": null
+      },
+      "name": "Age > 50",
+      "description": null
+    },
+    {
+      "expression": {
+        "CriteriaList": [],
+        "Type": "ALL",
+        "DemographicCriteriaList": [{
+          "Ethnicity": null,
+          "OccurrenceEndDate": null,
+          "Race": null,
+          "Gender": [{
+            "INVALID_REASON_CAPTION": "Unknown",
+            "CONCEPT_ID": 8532,
+            "STANDARD_CONCEPT": null,
+            "CONCEPT_CODE": "F",
+            "VOCABULARY_ID": "Gender",
+            "CONCEPT_NAME": "FEMALE",
+            "DOMAIN_ID": "Gender",
+            "STANDARD_CONCEPT_CAPTION": "Unknown",
+            "CONCEPT_CLASS_ID": null,
+            "INVALID_REASON": null
+          }],
+          "OccurrenceStartDate": null,
+          "Age": null
+        }],
+        "Groups": [],
+        "Count": null
+      },
+      "name": "Female patients",
+      "description": null
+    }
+  ],
+  "PrimaryCriteria": {
+    "CriteriaList": [{"DrugExposure": {
+      "OccurrenceEndDate": null,
+      "CorrelatedCriteria": null,
+      "DrugSourceConcept": null,
+      "CodesetId": 5,
+      "DrugTypeExclude": false,
+      "Quantity": null,
+      "DrugType": null,
+      "ProviderSpecialty": null,
+      "EffectiveDrugDose": null,
+      "Gender": null,
+      "DaysSupply": null,
+      "DoseUnit": null,
+      "VisitType": null,
+      "Refills": null,
+      "First": true,
+      "OccurrenceStartDate": {
+        "Op": "gte",
+        "Extent": null,
+        "Value": "2020-01-01"
+      },
+      "RouteConcept": null,
+      "StopReason": null,
+      "LotNumber": null,
+      "Age": null
+    }}],
+    "PrimaryCriteriaLimit": {"Type": "First"},
+    "ObservationWindow": {
+      "PostDays": 0,
+      "PriorDays": 0
+    }
+  }
+}
