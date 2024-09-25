@@ -1,4 +1,4 @@
-ARCHv6
+ARCHv7
 ==============================
 
 
@@ -26,7 +26,7 @@ How to run
 3. Once installed, you can execute the study by modifying and using the code below. For your convenience, this code is also provided under `extras/CodeToRun.R`:
 
 	```r
-	library(ARCHv6)
+	library(ARCHv7)
 	
   # Maximum number of cores to be used:
 	maxCores <- parallel::detectCores()
@@ -50,7 +50,7 @@ How to run
 	
 	# The name of the database schema and table where the study-specific cohorts will be instantiated:
 	cohortDatabaseSchema <- "scratch.dbo"
-	cohortTable <- "ARCH_v1"
+	cohortTable <- "ARCH_v7"
 	
 	# Some meta-information that will be used by the export function:
 	databaseId <- "Synpuf" # AMC or KUMC
